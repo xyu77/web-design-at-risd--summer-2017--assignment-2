@@ -17,7 +17,7 @@ In the second phase of this assignment, you’ll design, or add styling, to the 
 
 ## Phase 1 (HTML)
 
-Some questions to ask while considering which HTML elements to use to wrap the content:
+Some questions to ask while considering which HTML elements to use:
 
 * Which sections are most important? Is there a tag for that?
 * Is there hierarchy implied in the content?
@@ -25,7 +25,7 @@ Some questions to ask while considering which HTML elements to use to wrap the c
 
 ## Phase 2 (CSS)
 
-Some questions to ask while considering the styling of the page using CSS:
+Some questions to ask while considering the styling of the page:
 
 * How should I emphasize the important content?
 * Which typeface will help me to get my meaning across?
@@ -33,7 +33,7 @@ Some questions to ask while considering the styling of the page using CSS:
 * What colors should I use and why am I using those colors?
 * Do I want my design to be busy, minimal, or in between?
 * Is my spacing too much or not enough?
-* Is my content legible, to everyone?
+* Is my content legible to everyone?
 
 ## UI/UX
 
