@@ -21,7 +21,8 @@ h1 {
 }
 ol {
    list-style-type: circle;
-   margin: 50px;
+   margin-left: 50px;
+   margin-bottom: 20px;
 }
 table {
    border: 1px solid gray;
@@ -47,7 +48,7 @@ h2 {
    margin-top: 40px;
 }
 li {
-   list-style-type: none;
+   list-style-type: square;
    margin-left: 60px;
 }
 em {
@@ -57,4 +58,6 @@ em {
 .subtitle {
   font-size: 12px;
   text-align: center;
+  margin-top: 8px;
+  margin-left: 50px;
 }
