@@ -93,4 +93,11 @@ nav a:hover {
 nav :hover > table {
   display: block;
 }
+i {
+   font-style: italic;
+   text-decoration: underline;;
+}
 
+u {
+   font-weight: 600;
+}
