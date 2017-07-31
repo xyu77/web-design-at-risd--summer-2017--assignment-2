@@ -88,6 +88,7 @@ nav a {
 }
 nav a:hover {
   background-color: rgb(151, 217, 237) !important;
+  color: black;
 }
 
 /* why not working??
