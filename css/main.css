@@ -1,25 +1,35 @@
 
 body {
+
    background-color: rgb(215, 215, 215);
    font-family: 'Zilla Slab', serif;
    line-height: 24px;
+   background-image: url(../img/piano.jpg);
+   background-repeat: no-repeat;
+}
+header {
+
 }
 .qoute {
    border: 1px solid gray;
+
    font-size: 20px;
    margin: 18px;
    position: relative;
-   margin-bottom: 40px;
+   margin-bottom: 60px;
+
+/*   background-image: url(../img/piano2.jpg);*/
 }
 p{
    margin:45px;
 }
 h1 {
-   font-size: 30px;
+   font-size: 50px;
    text-align: center;
    font-weight: 800;
    font-family: "Ubuntu Mono", serif;
    margin-top: 40px;
+
 }
 
 ol {
@@ -33,8 +43,9 @@ table {
    margin: 0px auto;
    text-align: left;
    width: 600px;
-   margin-bottom: 50px;
+   margin-bottom: 80px;
    margin-top: 50px;
+   color: white;
 
 
 }
@@ -63,8 +74,8 @@ em {
 .subtitle {
   font-size: 12px;
   text-align: center;
-  margin-top: 8px;
-  margin-left: 50px;
+  margin-top: 20px;
+
 }
 b {
    font-weight: bold;
