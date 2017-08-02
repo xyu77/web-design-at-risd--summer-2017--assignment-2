@@ -7,7 +7,18 @@
    <link href="css/main.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<script type="text/javascript">
 
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'none')
+          e.style.display = 'block';
+       else
+          e.style.display = 'none';
+    }
+
+
+</script>
 
 </head>
 
@@ -18,18 +29,20 @@
 <h1>Alina</h1>
 <h3 class="subtitle">Arvo Pärt</h3>
 <div class="qoute">
-<p>“I could compare my music to white light which contains all colours. Only a prism can divide the colours and make them appear; this prism could be the spirit of the listener.”
+<p class="qoutecontent">“I could compare my music to white light which contains all colours. Only a prism can divide the colours and make them appear; this prism could be the spirit of the listener.”
 <br>
-— Arvo Pärt
+<span>— Arvo Pärt</span>
 </p>
 </div>
 
+
 <nav>
-<a href="#">Album List</a>
+<a href="#" onclick="toggle_visibility('foo');">Show Album List<br>▼</a>
+
 </nav>
 
-<table>
- <thead>
+<table id="foo">
+ <thead>s
   <tr>
     <th>Spiegel im Spiegel</th>
     <th>10:36</th>
@@ -63,11 +76,10 @@
 
 </header>
 
-
-
-<h2> <li>Reviews</li></h2>
+<div id="paragraph">
+<h2>Reviews</h2>
 <p>
-&emsp;<em> Arvo Pärt </em> is a living national treasure to Estonia, and this album reveals such intimate access to his faith, sadness, and humility. Structured in five parts, <i>Alina</i> is a simple, chilling invocation of heartfelt desire comprised of only two movements that alternate with subtle variation. The opening lullaby of <u>“Spiegel im Spiegel”</u> is a gentle and melancholy embrace between <i>Sergej Bezrodney</i> on piano and <i>Vladimir Spivakov</i> on violin, where every note steps gracefully forward, as if ascending a fragile staircase. In contrast, the two movements of <u>“Für Alina”</u> leave a little room for structured improvisation, as the top note in each chord is left for the performer to, as Pärt puts it, “explore within themselves.” Thus, <i>Alexander Malter</i> deserves special recognition for breathing such mournful sweetness into these passages through every fingertip; every delicate cluster of notes shines like a distant star through a wintery black night. Malter stays on for the middle section of <u>“Spiegel im Spiegel”</u> and, with violoncello from <i>Dietmar Schwalke</i>, adds a more somber deliberateness to the piece that pianist <i>Bezrodney shies</i> away from in his performances (tracks one and five), instead opting for restrained tenderness. The disc closes much in the same way it opens: as if a prayer of deepest longing were just whispered into the still air. Frequent ECM producer <i>Manfred Eicher</i> calls upon his usual strengths, by letting the instruments speak for themselves in the right acoustical settings — less is certainly more, and the stark beauty of Alina comes partly from what we hear between the notes: such a rich and gorgeous silence. This is perhaps one of Pärt’s finest releases on compact disc, though one of his quietest. These are the tears of ghosts.
+&emsp;<em> A</em>rvo Pärt is a living national treasure to Estonia, and this album reveals such intimate access to his faith, sadness, and humility. Structured in five parts, <i>Alina</i> is a simple, chilling invocation of heartfelt desire comprised of only two movements that alternate with subtle variation. The opening lullaby of <u>“Spiegel im Spiegel”</u> is a gentle and melancholy embrace between <i>Sergej Bezrodney</i> on piano and <i>Vladimir Spivakov</i> on violin, where every note steps gracefully forward, as if ascending a fragile staircase. In contrast, the two movements of <u>“Für Alina”</u> leave a little room for structured improvisation, as the top note in each chord is left for the performer to, as Pärt puts it, “explore within themselves.” Thus, <i>Alexander Malter</i> deserves special recognition for breathing such mournful sweetness into these passages through every fingertip; every delicate cluster of notes shines like a distant star through a wintery black night. Malter stays on for the middle section of <u>“Spiegel im Spiegel”</u> and, with violoncello from <i>Dietmar Schwalke</i>, adds a more somber deliberateness to the piece that pianist <i>Bezrodney shies</i> away from in his performances (tracks one and five), instead opting for restrained tenderness. The disc closes much in the same way it opens: as if a prayer of deepest longing were just whispered into the still air. Frequent ECM producer <i>Manfred Eicher</i> calls upon his usual strengths, by letting the instruments speak for themselves in the right acoustical settings — less is certainly more, and the stark beauty of Alina comes partly from what we hear between the notes: such a rich and gorgeous silence. This is perhaps one of Pärt’s finest releases on compact disc, though one of his quietest. These are the tears of ghosts.
 </p><p>
 
 — All Music
@@ -103,7 +115,7 @@ As I listen to this album again, the patter of raindrops outside my window provi
 
 </p>
 
-
+</div>
 </div>
 
 

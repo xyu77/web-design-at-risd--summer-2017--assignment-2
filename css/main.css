@@ -10,19 +10,36 @@ body {
 header {
 
 }
+/*p {
+  margin-bottom: 20px;
+}*/
+#paragraph {
+   margin: 80px;
+
+}
 .qoute {
-   border: 1px solid gray;
-
-   font-size: 20px;
-   margin: 18px;
-   position: relative;
-   margin-bottom: 50px;
-
+  border: 1px solid gray;
+  margin-left: 180px;
+  margin-right: 160px;
+  margin-top: 30px;
+   font-size: 18px;
+   padding: 30px;
 /*   background-image: url(../img/piano2.jpg);*/
 }
-p{
-   margin:45px;
+
+.qoutecontent {
+
+
+   position: relative;
+
+
 }
+span {
+  text-align: right;
+}
+
+
+
 h1 {
    font-size: 50px;
    text-align: center;
@@ -38,15 +55,15 @@ ol {
    margin-bottom: 20px;
 }
 table {
-   border: 1px solid gray;
+/*   border: 1px solid gray;*/
    border-collapse: collapse;
    margin: 0px auto;
    text-align: left;
    width: 600px;
    margin-bottom: 80px;
-   margin-top: 60px;
+   margin-top: 0px;
    color: white;
-
+   display: none;
 
 }
 table th {
@@ -58,11 +75,11 @@ table th {
 
 }
 h2 {
-   font-size: 20px;
+   font-size: 30px;
    font-weight: 500;
-   margin-left: 40px;
-   margin-top: 200px;
-
+   margin-bottom: 40px;
+   margin-top: 300px;
+   text-align: center;
 }
 li {
    list-style-type: square;
@@ -85,6 +102,8 @@ b {
 /*shape and display of the nav bar*/
 nav {
    text-align: center;
+    font-family: "Ubuntu Mono", serif;
+    font-size: 23px;
 }
 nav a {
 
@@ -92,23 +111,31 @@ nav a {
   background: #111;
   color: #fff;
   text-decoration: none;
-  padding: 0.8em 1.8em;
+  padding: 0.5em 1.8em;
   text-transform: uppercase;
   font-size: 80%;
   letter-spacing: 2px;
   text-shadow: 0 -1px 0 #000;
-  position: relative;
+  margin-top: 80px;
+/*  position: relative;*/
 
 }
 nav a:hover {
-  background-color: rgb(151, 217, 237) !important;
+  background-color: rgb(151, 217, 237) ;
+  transition: 0.5s;
   color: black;
 }
 
 
-nav a:hover > table {
+nav a:hover > #foo {
   display: block;
+  transition: 0.5s;
 }
+
+
+
+
+
 
 
 i {
@@ -119,6 +146,9 @@ i {
 u {
    font-weight: 600;
 }
+
+
+
 
 
 
